@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <LangVersion>7.3</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Lucca.CurrencyConverter\Lucca.CurrencyConverter.csproj" />
+      <ProjectReference Include="..\Lucca.Shared.Functional\Lucca.Shared.Functional.csproj" />
+    </ItemGroup>
+
+</Project>
